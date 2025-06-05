@@ -5,8 +5,8 @@ import plotly.graph_objects as go
 from io import BytesIO
 import plotly.express as px
 
-st.set_page_config(page_title="Proyección de Punto de Equilibrio", layout="wide")
-st.title("Punto de Equilibrio por Licenciatura")
+st.set_page_config(page_title="Proyección Punto de Equilibrio", layout="wide")
+st.title("Punto de Equilibrio para Licenciatura")
 
 def calcular_colegiatura(num_aulas, capacidad_aula, estudiantes_actuales, costo_fijo, costo_variable, incluir_utilidad, utilidad_pct, colegiatura_manual):
     capacidad_total = num_aulas * capacidad_aula
